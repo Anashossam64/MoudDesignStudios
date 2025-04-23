@@ -116,10 +116,13 @@
 .content-desc{
     display: flex;
     justify-content: space-between;
+    size: auto;
 }
 .left-desc{
     display: flex;
+    flex: 1;
     flex-direction: column;
+
     
 }
 .content-img{
@@ -172,6 +175,7 @@
 }
 .right-desc{
     display: flex;
+    flex:1;
     align-items: end;
     justify-content: end;
 }
@@ -184,6 +188,16 @@
   .btn:hover .btn-arrow {
     filter: brightness(0) invert(1); 
   }
+.btm{
+    display:flex;
+    gap: 42px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 .content-img-btm{
     width: 1680px;
     height: 670px;
@@ -197,3 +211,10 @@
     object-fit: contain;
     
 }
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
