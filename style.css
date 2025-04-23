@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+@font-face {
+    font-family: beausite-classic-regular;
+    src: url('./Assets/Fonts/beausite.ttf') format('truetype'); ;
+}
+body{
+    font-family: beausite-classic-regular;
+    margin: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:221px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.logo-img{
+    width: 130px;
+    height: 40px;
+}
+.bar-img{
+    width: 28px;
+    height: 18px;
+    cursor: pointer;
+}
+.hook{
+    font-weight: 1000;
+    font-size: 123px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.sub-hook{
+    font-size: 24px;
+    padding-left: 290px;
+    padding-right:290px; ;
+    text-align: center;
+    color: #85878A;
+    ;
+
+}
