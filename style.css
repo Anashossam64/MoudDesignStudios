@@ -327,3 +327,47 @@
     background-color: white;
 } */
 
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 98px;
+    width: 100%;
+    height: 943px;
+    background-image: url('./Assets/Images/Moud.png'); 
+    background-size: cover;
+    background-position: center;
+}
+.content4{
+    width: 1254px;
+    height: 437px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+}
+.text4{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    justify-content: center;
+    align-items: center;
+}
+.title4{
+    font-family: beausite-bold;
+    font-size: 64px;
+    letter-spacing: -3.2px;
+    color: white;
+}
+.title4b{
+    color: #0071E3;
+}
+.subtitle4{
+    font-family: beausite-classic-regular;
+    font-size: 24px;
+    color: white;
+    letter-spacing: -1.2px;
+    text-align: center;
+}
