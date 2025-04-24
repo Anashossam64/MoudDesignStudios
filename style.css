@@ -116,7 +116,6 @@
 .content-desc{
     display: flex;
     justify-content: space-between;
-    size: auto;
 }
 .left-desc{
     display: flex;
@@ -183,11 +182,11 @@
     background-color: #0071E3;
     color: white;
     border: 0px;
-  }
-  
-  .btn:hover .btn-arrow {
+}
+
+.btn:hover .btn-arrow {
     filter: brightness(0) invert(1); 
-  }
+}
 .btm{
     display:flex;
     gap: 42px;
