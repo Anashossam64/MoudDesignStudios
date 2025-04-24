@@ -6,9 +6,10 @@
     <title>Moud</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./Assets/Icons/Logo.svg" type="image/x-icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 </head>
 <body>
-    <div class="landing-page">
+    <div  class="landing-page">
         <div class="container1"> 
             <div class="header">
                 <div class="logo">
@@ -20,8 +21,8 @@
                 </div>
             </div> 
     
-            <div class="section1">
-                <div class="hook">
+            <div  class="section1">
+                <div id="landing" class="hook">
                     hello
                 </div>
     
@@ -30,7 +31,13 @@
                 </div>
             </div>
         </div>
-
+        <script>
+            gsap.to("#landing", {
+                duration: 3,
+                opacity: 1,
+                ease: "bounce.out"
+            });
+        </script>
     <div class="container2">
             <div class="headerbox2">
                 <div class="header2">
@@ -131,11 +138,96 @@
                 </div>
 
             </div>
-        </div class>
-    </div>
+        </div>
     
-        
+    
+    <div class="container3">
+        <div class="header3">
+            <div class="title3">
+                My Best Services
+            </div>
+            <div class="subtitle3">
+                Looking for a specific service?   <span class="choose-btn"> Choose your desired one</span>
+            </div>
+        </div>
 
-        
+        <div class="cards3">
+            <div class="card3">
+                <div class="card-img3">
+                    <img src="./Assets/Icons/Layer.svg" alt="branding">
+                </div>
+                <div class="card-content3">
+                    <div class="card-title3">
+                        Branding
+                    </div>
+                    <div class="card-subtitle3">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                    </div>
+                    <div class="card-btn3">
+                        Contact Now
+                        <img src="./Assets/Icons/Right Arrow.svg" alt="arrow" class="btn-arrow3">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card3">
+                <div class="card-img3">
+                    <img src="./Assets/Icons/Computer.svg" alt="branding">
+                </div>
+                <div class="card-content3">
+                    <div class="card-title3">
+                        Website Design
+                    </div>
+                    <div class="card-subtitle3">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                    </div>
+                    <div class="card-btn3">
+                        Contact Now
+                        <img src="./Assets/Icons/Right Arrow.svg" alt="arrow" class="btn-arrow3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card3">
+                <div class="card-img3">
+                    <img src="./Assets/Icons/Phone.svg" alt="branding">
+                </div>
+                <div class="card-content3">
+                    <div class="card-title3">
+                        Mobile Application
+                    </div>
+                    <div class="card-subtitle3">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                    </div>
+                    <div class="card-btn3">
+                        Contact Now
+                        <img src="./Assets/Icons/Right Arrow.svg" alt="arrow" class="btn-arrow3">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card3">
+                <div class="card-img3">
+                    <img src="./Assets/Icons/Package.svg" alt="branding">
+                </div>
+                <div class="card-content3">
+                    <div class="card-title3">
+                        Packaging Design
+                    </div>
+                    <div class="card-subtitle3">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
+                    </div>
+                    <div class="card-btn3">
+                        Contact Now
+                        <img src="./Assets/Icons/Right Arrow.svg" alt="arrow" class="btn-arrow3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>     
 </body>
 </html>

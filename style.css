@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-  }
+    user-select: none;
+}
 @font-face {
     font-family: beausite-classic-regular;
     src: url('./Assets/Fonts/beausite.ttf') format('truetype'); 
@@ -35,6 +36,9 @@
     padding-left: 120px;
     padding-top: 36px;
     padding-bottom: 36px;
+}
+#landing{
+    opacity: 0;
 }
 .logo-img{
     width: 130px;
@@ -241,3 +245,85 @@
     cursor: pointer;
     transform: scale(1.2);
 }
+
+.container3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 98px;
+
+}
+
+.header3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.title3{
+    font-family: beausite-bold;
+    font-size: 64px;
+    letter-spacing: -3.2px;
+}
+.subtitle3{
+    font-family: beausite-classic-regular;
+    font-size: 24px;
+    color: #85878A;
+    letter-spacing: -1.2px;
+}
+.choose-btn{
+    color: #0071E3;
+    cursor: pointer;
+}
+.cards3{
+    width: 1680px;
+    height: 438px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.card3{
+    width: 402px;
+    height: 438px;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    background-color: #F1F2F2;
+    padding: 36px;
+    border-radius:36px ;
+}
+.card-content3{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.card-title3{
+    font-family: beausite-bold;
+    font-size: 32px;
+    letter-spacing: -1.6px;
+}
+.card-subtitle3{
+    font-family: beausite-classic-regular;
+    font-size: 16px;
+    color: #85878A;
+    letter-spacing: -1.2px;
+}
+.card-btn3{
+    font-size: 16px;
+    font-family: beausite-bold;
+    color:#0071E3;
+    cursor: pointer;
+}
+.card-btn3:hover{
+    text-decoration: underline;
+}
+/* .card :hover .card{
+    background-color: white;
+} */
+
