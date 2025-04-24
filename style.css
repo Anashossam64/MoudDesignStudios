@@ -227,23 +227,23 @@
     align-items: center;
 }
 #ably-img{
-    transition: transform 1s ease;
+    transition: transform 1.5s ease;
 }
 #dhyah-img{
-    transition: transform 1s ease;
+    transition: transform 1.5s ease;
 }
 #fusion-img{
-    transition: transform 1s ease;
+    transition: transform 1.5s ease;
 }
 
 .content-img:hover img{
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 
 .content-img-btm:hover img{
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(1.08);
 }
 
 .container3{
@@ -371,3 +371,11 @@
     letter-spacing: -1.2px;
     text-align: center;
 }
+#branding{
+    transition: ease 1s;
+}
+
+.card3:hover{
+    margin-bottom: 70px;
+
+}   
