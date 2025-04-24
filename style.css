@@ -163,7 +163,7 @@
     cursor: pointer;
     font-family: beausite-classic-regular;
     gap: 10px;
-    transition: background-color 0.5s ease, color 0.3s ease;
+    transition: background-color 0.8s ease, color 0.5s ease;
     
 }
 .btn-arrow{
@@ -189,11 +189,16 @@
 }
 .btm{
     display:flex;
-    gap: 42px;
     flex-direction: column;
+    gap: 42px;
     justify-content: center;
     align-items: center;
 
+}
+.bottom-content{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
 }
 
 
@@ -210,10 +215,29 @@
     object-fit: contain;
     
 }
+
 .container3{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
+#ably-img{
+    transition: transform 1s ease;
+}
+#dhyah-img{
+    transition: transform 1s ease;
+}
+#fusion-img{
+    transition: transform 1s ease;
+}
 
+.content-img:hover img{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.content-img-btm:hover img{
+    cursor: pointer;
+    transform: scale(1.2);
+}
